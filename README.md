@@ -1,6 +1,8 @@
-# Art Store Website
+<div align="center">
+      <img src="https://socialify.git.ci/deepanshu414/Art_Website/image?forks=1&issues=1&name=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Auto" alt="artwebsite" width="640" height="320" />
+   </div>
 
-**Art Store** is an online platform built with PHP, where users can showcase their artwork, explore art from other creators, and purchase unique pieces. It allows artists to store and display their creations while providing art lovers a marketplace to discover and buy art.
+`Art Store` is an online platform built with PHP, where users can showcase their artwork, explore art from other creators, and purchase unique pieces. It allows artists to store and display their creations while providing art lovers a marketplace to discover and buy art.
 
 ## Features
 
