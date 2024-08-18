@@ -6,7 +6,7 @@ function getDbConnection() {
     // Database connection parameters
     $host = "localhost";     // The hostname of your database server (often 'localhost')
     $username = "root";      // Your MySQL username
-    $password = "1";         // Your MySQL password
+    $password = "Your_password";         // Your MySQL password
     $database = "artstore";  // The name of your database
 
     // Attempt to establish a connection to the database
