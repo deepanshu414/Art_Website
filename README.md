@@ -32,7 +32,7 @@ cd Art_Website
 ```
 3. **Set up the database**
 - Adjust the `db_connect.php` file according to your database settings. Update the database host, username, password, and database name.
-- To set up the database structure, navigate to the `uploads/database_structure.txt` file. This file contains the SQL queries required to create the necessary tables and fields in your database. You can copy the query and execute it in your database management tool (e.g. MySQL Workbench, etc.).
+- To set up the database structure, navigate to the `database_structure.txt` file. This file contains the SQL queries required to create the necessary tables and fields in your database. You can copy the query and execute it in your database management tool (e.g. MySQL Workbench, etc.).
 
 4. **Run the Application Using XAMPP**
   - Download and install [XAMPP](https://www.apachefriends.org/download.html) if you don't have it installed on your machine.
@@ -43,14 +43,14 @@ cd Art_Website
   - Open your browser and navigate to `http://localhost/Art_Website` to access the application.
 
 5. **Configure the database connection**
-- **Database Connection :** Make sure to adjust the `db_connect.php` file located in the `includes/` directory. Set your database host, username, password, and database name like this:
+- **Database Connection :** Make sure to adjust the `db_connect.php` file . Set your database host, username, password, and database name like this:
   ```php
   $host = "localhost";    
   $username = "root";     
   $password = "your_password";        
   $database = "artstore"; 
   ```
-- **Database Structure :** Ensure your database structure matches the one provided in `uploads/database_structure.txt`. Execute the SQL query in your database management system to create the necessary tables and fields.
+- **Database Structure :** Ensure your database structure matches the one provided in `database_structure.txt`. Execute the SQL query in your database management system to create the necessary tables and fields.
 
 
 6. **Access the website**
