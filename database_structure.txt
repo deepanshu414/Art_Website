@@ -1,0 +1,9 @@
+create database artstore;
+
+use artstore;
+
+create table contact(Id int primary key auto_increment,Name varchar(1000) default "Null",Email varchar(1000) default "Null",Phone varchar(11) default 0,Country varchar(1000) default "Null",Message varchar(10000) default "Null");
+
+create table imagedata(ID int primary key auto_increment,Title varchar(1000) default "Null",Artist_Name varchar(1000) default "Null",Dimensions varchar(100) default "Null",Orientation varchar(1000) default "Null",Description varchar(2000) default "Null",Size varchar(100) default "Null",ArtType varchar(1000) default "Null",SellingPrice varchar(10000) default "Null",Phonenumber varchar(11) default 0,Status varchar(1000) default "Null",Date date default 0,Image varchar(10000) default "Null",Country varchar(1000) default "Null",main_user_id varchar(10000) default "Null");
+
+create table login(Id int primary key auto_increment,Name varchar(1000) default "Null",Email varchar(1000) default "Null",Password varchar(1000) default "Null");
