@@ -4,6 +4,16 @@
 
 `Art Store` is an online platform built with PHP, where users can showcase their artwork, explore art from other creators, and purchase unique pieces. It allows artists to store and display their creations while providing art lovers a marketplace to discover and buy art.
 
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+
 ## Features
 
 - **User Authentication :** Users must log in to access the platform. No one can enter without logging in.
